@@ -1,0 +1,29 @@
+COURSE,SESSION_NBR,SESSN_START_DT,SESSN_START_TIME,SESSN_END_DT,SESSN_END_TIME,DURATION_TIME,DURATION_UNIT_CD,FACILITY_NAME,ADDRESS1,ADDRESS2,CITY,STATE,SESSN_START_TIME_1,SESSN_END_TIME_1
+"301","0320",8/27/2010,8/27/2010 1:00:00 PM,8/27/2010,8/27/2010 8:00:00 PM,6,"H","441 4th Street, NW, Suite 850 ","One Judiciary Square, 441-4th "," ","Washington","DC","20001",8/27/2010 8:00:00 PM
+"234","0246",9/8/2010,9/8/2010 1:00:00 PM,9/8/2010,9/8/2010 8:00:00 PM,6,"H","441 4th Street, NW, Suite 850 ","One Judiciary Square, 441-4th "," ","Washington","DC","20001",9/8/2010 8:00:00 PM
+"200","0001",9/2/2010,9/2/2010 1:00:00 PM,9/2/2010,9/2/2010 4:00:00 PM,0,"H","441 4th Street, NW, Suite 850 ","One Judiciary Square, 441-4th "," ","Washington","DC","20001",9/2/2010 4:00:00 PM
+"203","0029",9/8/2010,9/8/2010 1:00:00 PM,9/8/2010,9/8/2010 8:00:00 PM,6,"H","441 4th Street, NW, Suite 850 ","One Judiciary Square, 441-4th "," ","Washington","DC","20001",9/8/2010 8:00:00 PM
+"207","0073",9/2/2010,9/2/2010 5:00:00 PM,9/2/2010,9/2/2010 8:00:00 PM,3,"H","441 4th Street, NW, Suite 850 ","One Judiciary Square, 441-4th "," ","Washington","DC","20001",9/2/2010 8:00:00 PM
+"204","0034",9/17/2010,9/17/2010 1:00:00 PM,9/17/2010,9/17/2010 8:00:00 PM,6,"H","441 4th Street, NW, Suite 850 ","One Judiciary Square, 441-4th "," ","Washington","DC","20001",9/17/2010 8:00:00 PM
+"204","0035",9/21/2010,9/21/2010 1:00:00 PM,9/21/2010,9/21/2010 8:00:00 PM,6,"H","441 4th Street, NW, Suite 850 ","One Judiciary Square, 441-4th "," ","Washington","DC","20001",9/21/2010 8:00:00 PM
+"300","0263",8/30/2010,8/30/2010 1:00:00 PM,8/30/2010,8/30/2010 8:00:00 PM,6,"H","Workforce Development Admin.","441 - 4th Street, N.W., Suite "," ","Washington","DC","20001",8/30/2010 8:00:00 PM
+"211","0132",8/26/2010,8/26/2010 1:00:00 PM,8/26/2010,8/26/2010 8:00:00 PM,6,"H","441 4th Street, NW, Suite 850 ","One Judiciary Square, 441-4th "," ","Washington","DC","20001",8/26/2010 8:00:00 PM
+"504","0757",9/1/2010,9/1/2010 1:00:00 PM,9/1/2010,9/1/2010 4:00:00 PM,0,"H","441 4th Street, NW, Suite 850 ","One Judiciary Square, 441-4th "," ","Washington","DC","20001",9/1/2010 4:00:00 PM
+"302","0369",9/8/2010,9/8/2010 1:00:00 PM,9/8/2010,9/8/2010 8:00:00 PM,6,"H","441 4th Street, NW, Suite 850 ","One Judiciary Square, 441-4th "," ","Washington","DC","20001",9/8/2010 8:00:00 PM
+"230","0161",9/1/2010,9/1/2010 1:00:00 PM,9/1/2010,9/1/2010 8:00:00 PM,0,"H","Workforce Development Admin.","441 - 4th Street, N.W., Suite "," ","Washington","DC","20001",9/1/2010 8:00:00 PM
+"602","1107",9/15/2010,9/15/2010 1:00:00 PM,9/15/2010,9/15/2010 8:00:00 PM,6,"H","441 4th Street, NW, Suite 850 ","One Judiciary Square, 441-4th "," ","Washington","DC","20001",9/15/2010 8:00:00 PM
+"603","1205",9/15/2010,9/15/2010 5:00:00 PM,9/15/2010,9/15/2010 8:00:00 PM,3,"H","441 4th Street, NW, Suite 850 ","One Judiciary Square, 441-4th "," ","Washington","DC","20001",9/15/2010 8:00:00 PM
+"402","0516",9/15/2010,9/15/2010 1:00:00 PM,9/15/2010,9/15/2010 4:00:00 PM,0,"H","441 4th Street, NW, Suite 850 ","One Judiciary Square, 441-4th "," ","Washington","DC","20001",9/15/2010 4:00:00 PM
+"403","0522",8/30/2010,8/30/2010 5:00:00 PM,8/30/2010,8/30/2010 8:00:00 PM,0,"H","441 4th Street, NW, Suite 850 ","One Judiciary Square, 441-4th "," ","Washington","DC","20001",8/30/2010 8:00:00 PM
+"204","0033",9/9/2010,9/9/2010 1:00:00 PM,9/9/2010,9/9/2010 8:00:00 PM,6,"H","441 4th Street, NW, Suite 850 ","One Judiciary Square, 441-4th "," ","Washington","DC","20001",9/9/2010 8:00:00 PM
+"206","0068",8/31/2010,8/31/2010 1:00:00 PM,8/31/2010,8/31/2010 8:00:00 PM,6,"H","441 4th Street, NW, Suite 850 ","One Judiciary Square, 441-4th "," ","Washington","DC","20001",8/31/2010 8:00:00 PM
+"505","0768",8/27/2010,8/27/2010 1:00:00 PM,8/27/2010,8/27/2010 8:00:00 PM,6,"H","Workforce Development Admin.","441 - 4th Street, N.W., Suite "," ","Washington","DC","20001",8/27/2010 8:00:00 PM
+"505","0769",8/30/2010,8/30/2010 1:00:00 PM,8/30/2010,8/30/2010 8:00:00 PM,6,"H","Workforce Development Admin.","441 - 4th Street, N.W., Suite "," ","Washington","DC","20001",8/30/2010 8:00:00 PM
+"232","0213",9/14/2010,9/14/2010 1:00:00 PM,9/16/2010,9/16/2010 8:00:00 PM,6,"H","441 4th Street, NW, Suite 850 ","One Judiciary Square, 441-4th "," ","Washington","DC","20001",9/16/2010 8:00:00 PM
+"214","0157",8/27/2010,8/27/2010 1:00:00 PM,8/27/2010,8/27/2010 8:00:00 PM,0,"H","441 4th Street, NW, Suite 850 ","One Judiciary Square, 441-4th "," ","Washington","DC","20001",8/27/2010 8:00:00 PM
+"208","0091",9/3/2010,9/3/2010 1:00:00 PM,9/3/2010,9/3/2010 8:00:00 PM,6,"H","441 4th Street, NW, Suite 850 ","One Judiciary Square, 441-4th "," ","Washington","DC","20001",9/3/2010 8:00:00 PM
+"204","0032",9/3/2010,9/3/2010 1:00:00 PM,9/3/2010,9/3/2010 8:00:00 PM,6,"H","441 4th Street, NW, Suite 850 ","One Judiciary Square, 441-4th "," ","Washington","DC","20001",9/3/2010 8:00:00 PM
+"204","0037",8/27/2010,8/27/2010 1:00:00 PM,8/27/2010,8/27/2010 8:00:00 PM,6,"H","441 4th Street, NW, Suite 850 ","One Judiciary Square, 441-4th "," ","Washington","DC","20001",8/27/2010 8:00:00 PM
+"506","0834",9/1/2010,9/1/2010 5:00:00 PM,9/1/2010,9/1/2010 8:00:00 PM,0,"H","441 4th Street, NW, Suite 850 ","One Judiciary Square, 441-4th "," ","Washington","DC","20001",9/1/2010 8:00:00 PM
+"507","0845",8/27/2010,8/27/2010 1:00:00 PM,8/27/2010,8/27/2010 8:00:00 PM,6,"H","Workforce Development Admin.","441 - 4th Street, N.W., Suite "," ","Washington","DC","20001",8/27/2010 8:00:00 PM
+"508","0892",8/26/2010,8/26/2010 1:00:00 PM,8/26/2010,8/26/2010 8:00:00 PM,6,"H","441 4th Street, NW, Suite 850 ","One Judiciary Square, 441-4th "," ","Washington","DC","20001",8/26/2010 8:00:00 PM
