@@ -1,6 +1,8 @@
 import csv
 import httplib, urllib
 
+location="localhost:8097"
+#location="wda-mobile.appspot.com"
 
 courses={}
 
@@ -48,7 +50,7 @@ for course in courses:
 	print data
 	
 	params = urllib.urlencode(data)
-	conn = httplib.HTTPConnection("localhost:8097")
+	conn = httplib.HTTPConnection(location)
 	conn.request("POST", "/api/course", params)
 	response = conn.getresponse()
 	print response.status, response.reason
@@ -66,7 +68,7 @@ for row in reader:
 		"prerequisite":row[1]}
 
 	params = urllib.urlencode(data)
-	conn = httplib.HTTPConnection("localhost:8097")
+	conn = httplib.HTTPConnection(location)
 	conn.request("POST", "/api/prerequisite", params)
 	response = conn.getresponse()
 	print response.status, response.reason

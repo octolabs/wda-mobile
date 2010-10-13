@@ -13,18 +13,19 @@ class MainHandler(webapp.RequestHandler):
 		path = os.path.join(os.path.dirname(__file__), 'main.html')
 		self.response.out.write(template.render(path, template_values))		
 
-class RoutesHandler(webapp.RequestHandler):
+class CourseHandler(webapp.RequestHandler):
 	def get(self):
 
-		template_values = {'route': "route_tag"}
-		path = os.path.join(os.path.dirname(__file__), 'directions.html')
+		template_values = {'name': "course_name",
+							'id':'course_id'}
+		path = os.path.join(os.path.dirname(__file__), 'course.html')
 		self.response.out.write(template.render(path, template_values))		
 
 
 def main():
 	application = webapp.WSGIApplication(
 		[('/', MainHandler),
-		('/whereismybus/route/.*', RoutesHandler),
+		('/course', CourseHandler),
 		],
 		debug=True)
 	wsgiref.handlers.CGIHandler().run(application)

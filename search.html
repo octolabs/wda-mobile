@@ -17,11 +17,21 @@
 <br/>
 <br/>
 Categories: <a href="">Technology</a> <a href="">Management</a> <a href="">MS Office</a>
-</center>
+
+<p>
+{% for r in results %}
+		<b>
+			<a href="/course?id={{r.id}}">{{ r.name }}</a>
+		</b>
+		<br/>
+{% endfor %}
+</p>	
 
 <p>
 <a href="http://wda.dc.gov">Home</a>
 </p>
+
+</center>
 
 </body>
 </html>
