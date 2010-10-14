@@ -1,5 +1,5 @@
 application: wda-mobile
-version: 1
+version: 2
 runtime: python
 api_version: 1
 
@@ -22,6 +22,10 @@ handlers:
 - url: /api/.*
   script: api/api.py
 
+- url: /admin/.*
+  script: /admin/admin.py
+  login: admin
+    
 - url: /search
   script: search.py
 

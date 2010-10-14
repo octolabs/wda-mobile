@@ -28,7 +28,7 @@ class IndexAPI(webapp.RequestHandler):
 			writer = ix.writer()
 			writer.add_document(title=course.name, content=course.description, path=course.course_id)
 			writer.commit()
-			self.response.out.write("indexed %s <br/>" % (course.name))
+			#self.response.out.write("indexed %s <br/>" % (course.name))
 
 application = webapp.WSGIApplication(
 									[('/api/index', IndexAPI)],

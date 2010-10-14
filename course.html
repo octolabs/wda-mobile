@@ -14,30 +14,25 @@
 
 <p>
 
-<h1>MS Word 101</h1>
-6 hours (1 six-hour day–0.6 CEUs)
+<h1>{{ course.name }}
+{% if admin_link %}
+ - <a href='{{ admin_link }}'>Edit</a>
+{% endif %}
+</h1>
+{{ course.duration }}
 <br/>
 <br/>
-<b>Description: </b> Public managers will receive an introduction to the skills and knowledge necessary to manage procurement, contracting and outsourcing activities. Managers will also be exposed to current and relevant case studies, from which they can draw principles to implement in their own organizations.
+<b>Description: </b> {{ course.description }}
 <br/>
 <br/>
-<b>Objectives: </b> Understand the responsibilities of line or program managers in the acquisition of goods and services, particularly in the day-to-day administration of procurement contracts and contractor relationships.
-Become familiar with the various types of contracts (e.g., fixed price, cost plus) and their relative strengths and weaknesses; be able to analyze a potential outsourcing situation or opportunity and understand how to develop a satisfactory statement of work.
-
-<br/>
-<br/>
-<b>Competencies: </b> Customer Service
-<br/>
-<b>Who Should Attend: </b> MSS and Non-MSS managers and supervisors only (CPM graduates are exempt)
-<br/>
-<b>Prerequisites: </b> None
 </p>
 <hr style="border:1px dashed;color:58595b" width="100%"/>
 <h2>Available Sessions</h2>
 
-<a href="/session?id=123">January 1st, 2011 - OJS</a> <br/>
-<a href="/session?id=123">January 31st, 2011 - OJS</a> <br/>
-<a href="/session?id=123">March 1st, 2011 - OJS</a> <br/>
+{% for session in sessions %}
+<a href="/session?session_number={{ session.session_number }}">{{ session.start_date }} {{ session.start_time }} {{ session.address }}</a> <br/>
+{% endfor %}
+
 
 <p>
 <a href="/">Home</a>

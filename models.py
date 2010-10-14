@@ -13,6 +13,8 @@ class Course(db.Model):
 	max_students=db.IntegerProperty()
 	duration=db.IntegerProperty()
 	education_units=db.IntegerProperty()
+	mobile_video_url=db.LinkProperty()
+	web_video_url=db.LinkProperty()
 
 class Prerequisite(db.Model):
 	#prerequisites
