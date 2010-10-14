@@ -22,10 +22,20 @@ class CourseHandler(webapp.RequestHandler):
 		self.response.out.write(template.render(path, template_values))		
 
 
+class SessionHandler(webapp.RequestHandler):
+	def get(self):
+
+		template_values = {'name': "course_name",
+							'id':'course_id'}
+		path = os.path.join(os.path.dirname(__file__), 'session.html')
+		self.response.out.write(template.render(path, template_values))		
+
+
 def main():
 	application = webapp.WSGIApplication(
 		[('/', MainHandler),
 		('/course', CourseHandler),
+		('/session', SessionHandler),
 		],
 		debug=True)
 	wsgiref.handlers.CGIHandler().run(application)

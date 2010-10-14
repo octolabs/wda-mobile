@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<Module>
+  <ModulePrefs title="OCTO Volunteers!" /> 
+  <Content type="html">
+     <![CDATA[ 
+	<script type="text/javascript" src="http://cssglobe.com/lab/easyslider1.5/js/jquery.js"></script> 
+	<script type="text/javascript" src="http://cssglobe.com/lab/easyslider1.5/js/easySlider1.5.js"></script> 
+	<script type="text/javascript"> 
+		$(document).ready(function(){	
+			$("#slider").easySlider({
+				auto: true,
+				continuous: true 
+			});
+		});	
+	</script>
+	<style type="text/css"> 
+
+		body {
+			background:#fff url(images/bg_body.gif) repeat-x;
+			font:80% Trebuchet MS, Arial, Helvetica, Sans-Serif;
+			color:#333;
+			line-height:180%;
+			margin:0;
+			padding:0;
+			text-align:center;
+		}
+		h1{
+			font-size:180%;
+			font-weight:normal;
+			margin:0;
+			padding:20px;
+			}
+		h2{
+			font-size:160%;
+			font-weight:normal;
+			}	
+		h3{
+			font-size:140%;
+			font-weight:normal;
+			}	
+		img{border:none;}
+		pre{
+			display:block;
+			font:12px "Courier New", Courier, monospace;
+			padding:10px;
+			border:1px solid #bae2f0;
+			background:#e3f4f9;	
+			margin:.5em 0;
+			width:674px;
+			}	
+
+	    /* image replacement */
+	        .graphic, #prevBtn, #nextBtn{
+	            margin:0;
+	            padding:0;
+	            display:block;
+	            overflow:hidden;
+	            text-indent:-8000px;
+	            }
+	    /* // image replacement */
+
+
+		#container{	
+			margin:0 auto;
+			position:relative;
+			text-align:left;
+			width:696px;
+			background:#fff;		
+			margin-bottom:2em;
+			}	
+		#header{
+			height:144px;
+			background:#5DC9E1;
+			color:#fff;
+			}				
+		#content{
+			position:relative;
+			}			
+
+	/* Easy Slider */
+
+		#slider{}	
+		#slider ul, #slider li{
+			margin:0;
+			padding:0;
+			list-style:none;
+			}
+		#slider li{ 
+			/* 
+				define width and height of list item (slide)
+				entire slider area will adjust according to the parameters provided here
+			*/ 
+			width:696px;
+			height:241px;
+			overflow:hidden; 
+			}	
+		#prevBtn, #nextBtn{ 
+			display:block;
+			width:30px;
+			height:77px;
+			position:absolute;
+			left:-30px;
+			top:71px;
+			}	
+		#nextBtn{ 
+			left:696px;
+			}														
+		#prevBtn a, #nextBtn a{  
+			display:block;
+			width:30px;
+			height:77px;
+			background:url(images/btn_prev.gif) no-repeat 0 0;	
+			}	
+		#nextBtn a{ 
+			background:url(images/btn_next.gif) no-repeat 0 0;	
+			}												
+
+	/* // Easy Slider */
+
+	</style>
+
+
+
+	<div id="slider"> 
+		<ul>				
+			<li><a href="http://templatica.com/preview/30"><img src="http://cssglobe.com/lab/easyslider1.5/images/01.jpg" alt="Css Template Preview" /></a></li> 
+			<li><a href="http://templatica.com/preview/7"><img src="http://cssglobe.com/lab/easyslider1.5/images/02.jpg" alt="Css Template Preview" /></a></li> 
+			<li><a href="http://templatica.com/preview/25"><img src="http://cssglobe.com/lab/easyslider1.5/images/03.jpg" alt="Css Template Preview" /></a></li> 
+			<li><a href="http://templatica.com/preview/26"><img src="http://cssglobe.com/lab/easyslider1.5/images/04.jpg" alt="Css Template Preview" /></a></li> 
+			<li><a href="http://templatica.com/preview/27"><img src="http://cssglobe.com/lab/easyslider1.5/images/05.jpg" alt="Css Template Preview" /></a></li>			
+		</ul> 
+	</div> 
+
+     ]]>
+  </Content> 
+</Module>
