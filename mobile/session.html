@@ -1,0 +1,25 @@
+{% include "header.html" %}
+
+<p>
+<p style="color: green; font-weight:bold;">This session is available</p>
+
+<input type="submit" value="Register now!"></input>
+
+<h1>{{ session.course.name }}</h1>
+{{ session.course.duration }}
+<br/>
+<br/>
+<b>Date: </b> {{ session.start_date }}
+<br/>
+<b>Time: </b> {{ session.start_time }}
+<br/>
+
+<b>Capacity: </b> {{ session.min_people }}-{{ session.max_people }}
+<br/>
+
+<br/>
+<b>Location: </b> {{ session.address }}, <br/>{{ session.city }}, {{ session.state }} {{ session.zip }}<br/>
+
+<iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=441+4th+St+NW,+Washington,+DC+20001&amp;sll=37.0625,-95.677068&amp;sspn=62.057085,128.583984&amp;ie=UTF8&amp;hq=&amp;hnear=441+4th+St+NW,+Washington+D.C.,+District+of+Columbia,+20001&amp;ll=38.895442,-77.015877&amp;spn=0.02004,0.025749&amp;z=14&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=441+4th+St+NW,+Washington,+DC+20001&amp;sll=37.0625,-95.677068&amp;sspn=62.057085,128.583984&amp;ie=UTF8&amp;hq=&amp;hnear=441+4th+St+NW,+Washington+D.C.,+District+of+Columbia,+20001&amp;ll=38.895442,-77.015877&amp;spn=0.02004,0.025749&amp;z=14" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+
+{% include "footer.html" %}

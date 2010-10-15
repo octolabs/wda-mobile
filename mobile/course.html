@@ -1,0 +1,25 @@
+{% include "header.html" %}
+
+<p>
+<h1>{{ course.name }}
+{% if admin_link %}
+ - <a href='{{ admin_link }}'>Edit</a>
+{% endif %}
+</h1>
+{{ course.duration }}
+<br/>
+<br/>
+<b>Description: </b> {{ course.description }}
+<br/>
+<br/>
+</p>
+<hr style="border:1px dashed;color:58595b" width="100%"/>
+<h2>Available Sessions</h2>
+
+{% for session in sessions %}
+<a href="/session?session_number={{ session.session_number }}">{{ session.start_date }} {{ session.start_time }} {{ session.address }}</a>
+<br/>
+{% endfor %}
+
+
+{% include "footer.html" %}

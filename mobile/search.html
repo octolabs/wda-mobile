@@ -1,0 +1,16 @@
+{% include "header.html" %}
+
+{% include "categories.html" %}
+
+<center>
+<p>
+{% for r in results %}
+		<b>
+			<a href="/course?course_id={{r.id}}">{{ r.name }}</a>
+		</b>
+		<br/>
+{% endfor %}
+</p>
+</center>
+
+{% include "footer.html" %}
